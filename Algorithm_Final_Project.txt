@@ -1,0 +1,60 @@
+These are instrucion to assist you in completting the assignment. Your POD leaders will be able to help you.
+
+ALGORITHM TO Complete Assignment #14     
+     Create Stipend Table using THE DB Browser for SQLITE                                                    
+     
+     Modify database file name to Final_Project
+
+     Change root_title to STIPENDS
+
+     Delete the characters_table variable and it value.
+
+     Change all the characters_table variable name to stipends_table
+
+     Save the file then run the app by typing cmd b
+        the output should be a blank window window that only has
+        the title STIPENDS
+     
+     Modify the Input Variables to represent the field names needed
+        name, day, assignment, credit, debit, comment.
+        They all should be text fields
+     
+     Delete the root.after_idle(load_viewer)
+
+     Delete the load_viewer function
+
+     Delete the viewer Widget
+
+     Delete the def drop(*args): Function
+     
+     Delete references to update_viewer function
+     
+     Delete Load_viewer function
+
+     Delete the execute_drop Function
+
+     Delete the cursor.execute(stipends_table) statement
+
+     Change the drop_btn variable name to Update
+        change the text="Drop" to text="UPDATE"
+        and command=drop to command=''
+     
+     Modify cursor.execute parameter values to  
+     
+     Delete root.after_idle(load_viewer)
+     
+     Modify the the child Widgets and added needed widgets
+     
+     Delete Vertical Divider code
+     
+     Delete Viewer 
+     
+     MODIFY Drop button text to Update
+     
+     Modify Grid column and row values
+     
+     Add comment widget
+     
+     Modify SQL statements
+     
+     Add field delete query as part of posting function* 
